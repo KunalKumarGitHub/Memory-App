@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Memories" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomNoActionBarTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="CustomToolbarStyle">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:colorControlNormal">#ffffff</item>
+    </style>
+    <style name="Theme.Memories" parent="Base.Theme.Memories" />
+</resources>
