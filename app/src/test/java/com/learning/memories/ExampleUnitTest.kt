@@ -1,4 +1,4 @@
-package com.learning.happyplaces
+package com.learning.memories
 
 import org.junit.Test
 
